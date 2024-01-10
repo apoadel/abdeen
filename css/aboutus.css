@@ -14,21 +14,7 @@ p {
 .card {
   width: 27rem !important;
 }
-footer {
-  background-color: #8b5a2b;
-  padding: 20px 0;
-  font-size: larger;
-}
-footer p {
-  text-align: center;
-}
-.navbar {
-  background-color: #8b5a2b !important;
-}
-body {
-  background-color: #f5f5dc;
-  font-family: "Exo 2", sans-serif;
-}
+
 form {
   display: flex;
   flex-direction: column;

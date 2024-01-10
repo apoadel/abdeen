@@ -19,9 +19,6 @@ footer {
   padding: 20px 0;
   font-size: larger;
 }
-footer p {
-  text-align: center;
-}
 .navbar {
   background-color: #8b5a2b !important;
 }
@@ -34,9 +31,7 @@ form {
   flex-direction: column;
   padding: 40px 0;
 }
-main {
-  height: calc(100vh - 125px);
-}
+
 form p {
   padding-top: 25px;
   text-transform: capitalize;
@@ -50,4 +45,40 @@ textarea {
   border: 2px solid black;
   height: 110px;
   resize: none;
+}
+button.submit {
+  width: fit-content;
+  margin-top: 10px;
+  background-color: #734444;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+button.submit:hover {
+  background-color: #73444490;
+}
+.success-msg {
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #c5ffc5;
+}
+.success-msg p {
+  padding: 0;
+}
+.err-msg {
+  border-radius: 30px;
+
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 148, 148);
+}
+.err-msg p {
+  padding: 0;
+}
+.err-msg span {
+  color: black;
 }

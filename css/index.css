@@ -15,7 +15,7 @@ p {
   width: 27rem !important;
 }
 footer {
-  background-color: #34857f;
+  background-color: #734444;
   padding: 20px 0;
   font-size: larger;
 }
@@ -23,9 +23,26 @@ footer p {
   text-align: center;
 }
 .navbar {
-  background-color: #b0a48a !important;
+  background-color: #734444 !important;
 }
 body {
-  background-color: #beceb0;
+  background-color: #c37857;
   font-family: "Exo 2", sans-serif;
+}
+.like {
+  background-color: rgb(130, 130, 248) !important;
+  color: white;
+}
+.like:hover {
+  background-color: rgb(89, 89, 245) !important;
+  color: white;
+}
+
+.dislike {
+  background-color: rgb(246, 102, 102);
+  color: white;
+}
+.dislike:hover {
+  background-color: rgb(245, 67, 67);
+  color: white;
 }

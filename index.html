@@ -44,7 +44,17 @@
       crossorigin="anonymous"
     ></script>
     <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+
     <link rel="stylesheet" href="./css/index.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./script/script.js"></script>
   </head>
   <body>
     <header>
@@ -68,10 +78,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="./aboutus.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact US</a>
+                <a class="nav-link" href="./contactus.html">Contact Us</a>
               </li>
             </ul>
             <div class="d-flex" role="search">
@@ -142,10 +152,10 @@
                 This burger is a celebration of high-quality prime beef,
                 expertly seasoned and grilled to perfection.
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>Like</span>
               </button>
-              <div></div>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem">
@@ -164,10 +174,10 @@
                 aromatic herbs, creating a symphony of tastes that will delight
                 your senses. Ingredients:
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn dislike">
+                <i class="fa-solid fa-thumbs-down"></i>
+                <span>Dislike</span>
               </button>
-              <div></div>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem">
@@ -184,10 +194,10 @@
                 brings together a colorful array of crisp vegetables, aromatic
                 herbs, and a zesty dressing for a delightful fiesta of flavors.
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>Like</span>
               </button>
-              <div></div>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem">
@@ -206,10 +216,10 @@
                 promises a symphony of flavors that will tantalize your taste
                 buds.
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>Like</span>
               </button>
-              <div></div>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem">
@@ -227,10 +237,10 @@
                 of luscious strawberries and vibrant raspberries, harmoniously
                 blended into a moist and decadent dessert.
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn dislike">
+                <i class="fa-solid fa-thumbs-down"></i>
+                <span>Dislike</span>
               </button>
-              <div></div>
             </div>
           </div>
           <div class="card col-4" style="width: 18rem">
@@ -248,10 +258,10 @@
                 and seared to a mouthwatering perfection on the grill. Each bite
                 promises an extravagant symphony of flavors and textures.
               </p>
-              <button href="#" class="btn btn-primary">
-                <i class="fa-regular fa-heart"></i> favorite
+              <button type="button" class="btn like">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>Like</span>
               </button>
-              <div></div>
             </div>
           </div>
         </div>
@@ -259,7 +269,7 @@
     </main>
     <footer>
       <div class="container">
-        <p>made with ❤️ by abdeen</p>
+        <em>made with ❤️ by abdeen</em>
       </div>
     </footer>
   </body>

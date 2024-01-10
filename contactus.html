@@ -43,7 +43,16 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+
     <link rel="stylesheet" href="css/contactus.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -66,13 +75,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="./aboutus.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact US</a>
+                <a class="nav-link active" href="./contactus.html"
+                  >Contact Us</a
+                >
               </li>
             </ul>
             <div class="d-flex" role="search">
@@ -86,6 +99,15 @@
     <main>
       <div class="container">
         <form action="">
+          <div class="success-msg msg d-none">
+            <p>The form has been submitted successfully</p>
+          </div>
+          <div class="err-msg msg d-none">
+            <p>
+              You have to fill all required fields to submit
+              <span><i class="fa-solid fa-triangle-exclamation"></i></span>
+            </p>
+          </div>
           <h1>Contact us</h1>
           <p>name</p>
           <input type="text" />
@@ -95,13 +117,15 @@
           <input type="text" />
           <p>message</p>
           <textarea name=""></textarea>
+          <button class="submit" type="submit">submit</button>
         </form>
       </div>
     </main>
     <footer>
       <div class="container">
-        <p>made with ❤️ by abdeen</p>
+        <em>made with ❤️ by abdeen</em>
       </div>
     </footer>
+    <script src="./script/form.js"></script>
   </body>
 </html>
