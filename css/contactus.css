@@ -19,13 +19,7 @@ footer {
   padding: 20px 0;
   font-size: larger;
 }
-.navbar {
-  background-color: #8b5a2b !important;
-}
-body {
-  background-color: #f5f5dc;
-  font-family: "Exo 2", sans-serif;
-}
+
 form {
   display: flex;
   flex-direction: column;
